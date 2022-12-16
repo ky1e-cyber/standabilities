@@ -1,0 +1,1 @@
+execute as @a if score @e[tag = sa_spawnmarker, sort=nearest, limit=1] sa_btd_id = @s sa_btd_id run tp ~ ~ ~

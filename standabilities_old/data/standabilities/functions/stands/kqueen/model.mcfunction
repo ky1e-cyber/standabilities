@@ -1,0 +1,6 @@
+particle minecraft:smoke ^ ^0.5 ^-1 0.3 0.5 0.3 0.1 50 normal
+summon armor_stand ^ ^-0.5 ^-0.5 {Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,ShowArms:1b,Marker:1b,Rotation:[339f],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:2500134}}},{id:"leather_leggings",Count:1b,tag:{display:{color:15520488}}},{id:"leather_chestplate",Count:1b,tag:{display:{color:15520488}}},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;-146817991,737560588,-1190773498,1938491019],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc0MjVjZDM4ZTBhZDUxMmQ5YTRiNTZiMmE5NmIzMTg1NGY0Y2ZlYjJhYmYxYTYzYzllNjE3NGUwMDY2N2U1YSJ9fX0="}]}}}}],HandItems:[{},{}],Pose:{Body:[358f,339f,6f],Head:[8f,0f,6f],LeftLeg:[18f,24f,0f],RightLeg:[18f,6f,8f],LeftArm:[16f,40f,0f],RightArm:[30f,0f,20f]}, Tags:["sa_kqmodel", "sa_standmodel"]}
+execute at @e[tag = sa_kqmodel] run particle minecraft:smoke ~ ~0.5 ~ 0.3 0.5 0.3 0.1 50 normal
+particle minecraft:smoke ^-0.4 ^0.6 ^-1 0.3 0.5 0.3 0.1 50 normal
+
+scoreboard players set @e[tag = sa_kqmodel] sa_modelsid 16

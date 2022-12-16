@@ -1,0 +1,4 @@
+particle minecraft:poof ^ ^0.5 ^-1 0.5 1 0.5 0 5 force
+summon armor_stand ^ ^-0.5 ^-0.5 {Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Marker:1b,Rotation:[292f],ArmorItems:[{id:"golden_boots",Count:1b},{id:"golden_leggings",Count:1b},{id:"golden_chestplate",Count:1b},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;1260839439,1037059493,-2003526677,1678321557],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU0OTczMzRmMTlhMWQ4OTc3OWE2YjIwZGQxMzk0ZmFhMDM1MjA2NTQwOWNiYzViYjc2NmZlMjcxNmM2NjA2NSJ9fX0="}]}}}}],HandItems:[{},{}],Pose:{Body:[0f,339f,0f],Head:[356f,40f,350f],LeftLeg:[348f,2f,352f],RightLeg:[8f,0f,354f],LeftArm:[18f,22f,14f],RightArm:[327f,0f,22f]}, Tags:["sa_worldmodel", "sa_standmodel"]}
+
+scoreboard players set @e[tag = sa_worldmodel] sa_modelsid 9
