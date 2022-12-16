@@ -1,0 +1,5 @@
+tag @s add sa_kc_barrage
+execute as @e[tag = sa_kcmodel] run data merge entity @s {ArmorItems:[], Invisible:1b}
+execute at @s rotated ~ 0 run summon armor_stand ^ ^0.5 ^-0.4 {Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:0b,Marker:1b,Rotation:[292f],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:15985385}}},{id:"chainmail_leggings",Count:1b},{id:"leather_chestplate",Count:1b,tag:{display:{color:10297157}}},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;445562243,-1005501953,-1104848173,-19452586],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVmMWYxMDgzOTZhZWZkZjk1ZTVmODA1ZGYwNTZiZTk3OWVkZTA0NDc0OWY5ZTk2MTMyNDljNjRiYjRlNTc3MSJ9fX0="}]}}}}],HandItems:[{},{}],Pose:{Body:[8f,14f,0f],Head:[10f,0f,0f],LeftLeg:[18f,0f,0f],RightLeg:[34f,0f,0f],LeftArm:[279f,18f,0f],RightArm:[273f,352f,0f]}, Tags:["sa_kcbarrage", "sa_standmodel"]}
+scoreboard players set @e[tag = sa_kcbarrage] sa_modelsid 18
+execute at @e[tag = sa_kcmodel] run particle minecraft:dust 0.9 0.1 0 1 ^ ^ ^ 0.5 1 0.4 0 25 normal

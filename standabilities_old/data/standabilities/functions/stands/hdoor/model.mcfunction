@@ -1,0 +1,3 @@
+particle minecraft:wax_off ^ ^0.5 ^-1 0.5 1 0.5 0 10 force
+summon armor_stand ^ ^-0.5 ^-0.5 {Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Marker:1b,Rotation:[17f],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:7078112}}},{id:"leather_leggings",Count:1b,tag:{display:{color:15790320}}},{id:"leather_chestplate",Count:1b,tag:{display:{color:15790320}}},{id:"leather_helmet",Count:1b,tag:{display:{color:7078112}}}],HandItems:[{id:"minecraft:writable_book",Count:1b},{}],Pose:{Body:[2f,0f,2f],Head:[4f,338f,0f],LeftLeg:[14f,8f,356f],RightLeg:[12f,0f,356f],LeftArm:[4f,22f,6f],RightArm:[295f,0f,324f]}, Tags:["sa_standmodel", "sa_hdmodel"]}
+scoreboard players set @e[tag = sa_hdmodel] sa_modelsid 19

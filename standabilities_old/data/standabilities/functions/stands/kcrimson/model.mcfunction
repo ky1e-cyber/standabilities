@@ -1,0 +1,4 @@
+particle minecraft:crimson_spore ^ ^0.5 ^-1 0.5 1 0.5 0 20 force
+summon armor_stand ^ ^-0.5 ^-0.5 {Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Rotation:[232f],ArmorItems:[{id:"leather_boots",Count:1b,tag:{display:{color:15985385}}},{id:"chainmail_leggings",Count:1b},{id:"leather_chestplate",Count:1b,tag:{display:{color:10297157}}},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;445562243,-1005501953,-1104848173,-19452586],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVmMWYxMDgzOTZhZWZkZjk1ZTVmODA1ZGYwNTZiZTk3OWVkZTA0NDc0OWY5ZTk2MTMyNDljNjRiYjRlNTc3MSJ9fX0="}]}}}}],HandItems:[{},{}],Pose:{Body:[358f,0f,0f],Head:[16f,16f,0f],LeftLeg:[24f,0f,0f],RightLeg:[0f,14f,12f],LeftArm:[16f,340f,0f],RightArm:[336f,340f,0f]}, Tags:["sa_kcmodel", "sa_standmodel"]}
+
+scoreboard players set @e[tag = sa_kcmodel] sa_modelsid 18

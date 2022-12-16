@@ -1,0 +1,4 @@
+particle minecraft:happy_villager ^ ^0.5 ^-1 0.5 1 0.5 0 10 force
+summon armor_stand ^ ^-0.5 ^-0.5 {Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Marker:1b,ArmorItems:[{id:"chainmail_boots",Count:1b},{id:"leather_leggings",Count:1b,tag:{display:{color:4567133}}},{id:"leather_chestplate",Count:1b,tag:{display:{color:4567133}}},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;527163044,1323454101,-1309499086,-1381634170],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ4ZDVhODdlNTE0NzFlNGIwMGFhZGEzMTdjYzc0ZTk0NTQ1ZGNjZjJmYmZjMWU2ZGNlNzdjMmEyYzgyNWNhZiJ9fX0="}]}}}}],HandItems:[{},{}],Pose:{Body:[2f,0f,0f],Head:[4f,0f,0f],LeftLeg:[10f,18f,0f],RightLeg:[2f,259f,0f],LeftArm:[307f,40f,14f],RightArm:[281f,324f,10f]}, Tags:["sa_hgmodel", "sa_standmodel"]}
+
+scoreboard players set @e[tag = sa_hgmodel] sa_modelsid 7

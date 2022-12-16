@@ -1,0 +1,1 @@
+execute as @a[tag = sa_standuser] if score @s jp2_standid = @e[tag = sa_standmodel, sort=nearest, limit=1] sa_modelsid run effect give @s minecraft:wither 2 0 true

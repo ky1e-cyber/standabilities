@@ -1,0 +1,1 @@
+scoreboard players set @s sa_distance 0
