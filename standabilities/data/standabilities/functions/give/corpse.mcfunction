@@ -1,0 +1,1 @@
+give @s minecraft:rotten_flesh{display:{Name:'[{"text":"Holy Corpse ","color":"#FF9D1C","bold":true,"italic":false}]',Lore:['{"text":"Place in your offhand to use.","color":"#5C5C5C","italic":false}']}, sa:{Corpse:1b}} 1
